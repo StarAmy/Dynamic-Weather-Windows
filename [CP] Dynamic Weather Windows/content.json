@@ -1,0 +1,497 @@
+{
+	"Format": "1.23",
+	"Changes": [
+
+
+//sunny weather 
+		{
+      "Action": "EditImage",
+        "LogName": "Porthole Window",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/porthole.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 144, "Y": 832, "Width": 32, "Height": 32 },
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Sun"
+      }
+     },
+     	{
+      "Action": "EditImage",
+        "LogName": "Ornate Window",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/ornate.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X":224, "Y": 832, "Width": 32, "Height": 32 },
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Sun"
+      }
+     },
+     	{
+      "Action": "EditImage",
+        "LogName": "Carved Window",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/carved.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 288, "Y": 832, "Width": 32, "Height": 32 },
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Sun"
+      }
+     },
+     	{
+      "Action": "EditImage",
+      "LogName": "Metal Window",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/metal.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 336, "Y": 864, "Width": 32, "Height": 32 },
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Sun"
+      }
+     },
+     	{
+      "Action": "EditImage",
+      "LogName": "Basic Window",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/basic.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 }, 
+        "ToArea": { "X": 224, "Y": 800, "Width": 64, "Height": 32 },
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Sun"
+      }
+     },
+
+  //windy spring weather
+
+     {
+      "Action": "EditImage",
+        "LogName": "Porthole Window Windy Spring",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/porthole_windy_spring.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 144, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 10,
+        "When": {
+        "Season": "Spring",
+        "Weather": "Wind"
+      }
+
+     },
+      {
+      "Action": "EditImage",
+        "LogName": "Ornate Window Windy Spring",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/ornate_windy_spring.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X":224, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 10,
+        "When": {
+        "Season": "Spring",
+        "Weather": "Wind"
+      }
+     },
+      {
+      "Action": "EditImage",
+        "LogName": "Carved Window Windy Spring",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/carved_windy_spring.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 288, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 10,
+        "When": {
+        "Season": "Spring",
+        "Weather": "Wind"
+      }
+     },
+      {
+      "Action": "EditImage",
+      "LogName": "Metal Window Windy Spring",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/metal_windy_spring.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 336, "Y": 864, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 10,
+        "When": {
+        "Season": "Spring",
+        "Weather": "Wind"
+      }
+     },
+      {
+      "Action": "EditImage",
+      "LogName": "Basic Window WindySpring",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/basic_windy_spring.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 }, 
+        "ToArea": { "X": 224, "Y": 800, "Width": 64, "Height": 32 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 10,
+        "When": {
+        "Season": "Spring",
+        "Weather": "Wind"
+      }
+     },
+
+     //windy fall weather
+
+
+
+     {
+      "Action": "EditImage",
+        "LogName": "Porthole Window Windy Fall",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/porthole_windy_fall.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 144, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 10,
+        "When": {
+        "Season": "Fall",
+        "Weather": "Wind"
+      }
+     },
+      {
+      "Action": "EditImage",
+        "LogName": "Ornate Window Windy Fall",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/ornate_windy_fall.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X":224, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 10,
+        "When": {
+        "Season": "Fall",
+        "Weather": "Wind"
+      }
+     },
+      {
+      "Action": "EditImage",
+        "LogName": "Carved Window Windy Fall",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/carved_windy_fall.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 288, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 10,
+        "When": {
+        "Season": "Fall",
+        "Weather": "Wind"
+      }
+     },
+      {
+      "Action": "EditImage",
+      "LogName": "Metal Window Windy Fall",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/metal_windy_fall.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 336, "Y": 864, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 10,
+        "When": {
+        "Season": "Fall",
+        "Weather": "Wind"
+      }
+     },
+      {
+      "Action": "EditImage",
+      "LogName": "Basic Window WindyFall",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/basic_windy_fall.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 }, 
+        "ToArea": { "X": 224, "Y": 800, "Width": 64, "Height": 32 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 10,
+        "When": {
+        "Season": "Fall",
+        "Weather": "Wind"
+      }
+     },
+
+
+
+     //stormy weather
+          {
+      "Action": "EditImage",
+        "LogName": "Porthole Window Lightning",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/porthole_lightning.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 144, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 20,
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Storm"
+      }
+     },
+      {
+      "Action": "EditImage",
+        "LogName": "Ornate Window Lightning",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/ornate_lightning.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X":224, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 20,
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Storm"
+      }
+     },
+      {
+      "Action": "EditImage",
+        "LogName": "Carved Window Lightning",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/carved_lightning.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 288, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 20,
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Storm"
+      }
+     },
+      {
+      "Action": "EditImage",
+      "LogName": "Metal Window Stormy",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/metal_storming.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 336, "Y": 864, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 20,
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Storm"
+      }
+     },
+      {
+      "Action": "EditImage",
+      "LogName": "Basic Window Stormy",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/basic_storming.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 }, 
+        "ToArea": { "X": 224, "Y": 800, "Width": 64, "Height": 32 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 20,
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Storm"
+      }
+     },
+
+     //rainy weather
+     {
+      "Action": "EditImage",
+        "LogName": "Porthole Window Rainy",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/porthole_raining.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 144, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 4,
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Rain"
+      }
+     },
+      {
+      "Action": "EditImage",
+        "LogName": "Ornate Window Rainy",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/ornate_raining.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X":224, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 4,
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Rain"
+      }
+     },
+      {
+      "Action": "EditImage",
+        "LogName": "Carved Window Rainy",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/carved_raining.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 288, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 4,
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Rain"
+      }
+     },
+      {
+      "Action": "EditImage",
+      "LogName": "Metal Window Rainy",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/metal_raining.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 336, "Y": 864, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 4,
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Rain"
+      }
+     },
+      {
+      "Action": "EditImage",
+      "LogName": "Basic Window Rainy",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/basic_raining.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 }, 
+        "ToArea": { "X": 224, "Y": 800, "Width": 64, "Height": 32 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 4,
+        "When": {
+        "Season": "Spring, Summer, Fall",
+        "Weather": "Rain"
+      }
+     },
+
+     //winter sunny weather
+    {
+      "Action": "EditImage",
+        "LogName": "Porthole Window Winter",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/porthole_winter.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 144, "Y": 832, "Width": 32, "Height": 32 },
+        "When": {
+        "Season": "Winter",
+        "Weather": "Sun"
+      }
+     },
+      {
+      "Action": "EditImage",
+        "LogName": "Ornate Window Winter",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/ornate_winter.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X":224, "Y": 832, "Width": 32, "Height": 32 },
+        "When": {
+        "Season": "Winter",
+        "Weather": "Sun"
+      }
+     },
+      {
+      "Action": "EditImage",
+        "LogName": "Carved Window Winter",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/carved_winter.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 288, "Y": 832, "Width": 32, "Height": 32 },
+        "When": {
+        "Season": "Winter",
+        "Weather": "Sun"
+      }
+     },
+      {
+      "Action": "EditImage",
+      "LogName": "Metal Window Winter",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/metal_winter.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 336, "Y": 864, "Width": 32, "Height": 32 },
+        "When": {
+        "Season": "Winter",
+        "Weather": "Sun"
+      }
+     },
+      {
+      "Action": "EditImage",
+      "LogName": "Basic Window Winter",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/basic_winter.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 }, 
+        "ToArea": { "X": 224, "Y": 800, "Width": 64, "Height": 32 },
+        "When": {
+        "Season": "Winter",
+        "Weather": "Sun"
+      }
+     },
+
+     //winter snowy weather
+      {
+      "Action": "EditImage",
+        "LogName": "Porthole Window Snow",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/porthole_snowing.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 144, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 20,
+        "AnimationFrameCount": 4,
+        "When": {
+        "Season": "Winter",
+        "Weather": "Snow"
+      }
+     },
+      {
+      "Action": "EditImage",
+        "LogName": "Ornate Window Snow",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/ornate_snowing.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X":224, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 20,
+        "AnimationFrameCount": 4,
+        "When": {
+        "Season": "Winter",
+        "Weather": "Snow"
+      }
+     },
+      {
+      "Action": "EditImage",
+        "LogName": "Carved Window Snow",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/carved_snowing.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 288, "Y": 832, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 20,
+        "AnimationFrameCount": 4,
+        "When": {
+        "Season": "Winter",
+        "Weather": "Snow"
+      }
+     },
+      {
+      "Action": "EditImage",
+      "LogName": "Metal Window Snow",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/metal_snowing.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+        "ToArea": { "X": 336, "Y": 864, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 20,
+        "AnimationFrameCount": 4,
+        "When": {
+        "Season": "Winter",
+        "Weather": "Snow"
+      }
+     },
+      {
+      "Action": "EditImage",
+      "LogName": "Basic Window Snow",
+        "Target": "TileSheets/Furniture",
+        "FromFile": "assets/basic_snowing.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 }, 
+        "ToArea": { "X": 224, "Y": 800, "Width": 64, "Height": 32 },
+        "AnimationFrameTime": 20,
+        "AnimationFrameCount": 4,
+        "When": {
+        "Season": "Winter",
+        "Weather": "Snow"
+      }
+     },
+ ]
+}

@@ -1,0 +1,11 @@
+{
+   "Name": "Dynamic Weather Windows",
+   "Author": "StarAmy",
+   "Version": "1.0.0",
+   "Description": "A full set of replacement windows with a view that changes with the seasons and weather.",
+   "UniqueID": "StarAmy.Windows",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.4-beta.3"
+   },
+}
